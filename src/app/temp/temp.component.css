@@ -1,0 +1,10 @@
+button {
+  border-style: solid;
+  border-color: black;
+  margin: 1px;
+  font-weight: bold;
+}
+
+button:hover {
+  color: gray;
+}

@@ -1,0 +1,9 @@
+<h1>Temporizador</h1>
+
+<label>Intervalo(<i>ms</i>)</label>
+<input class="form-control" type="number" [(ngModel)]="ms">
+
+<div>{{timer.getCount()}}</div>
+<button (click)="timer.start(ms)">Start</button>
+<button (click)="timer.stop()">Stop</button>
+<button (click)="timer.timerZero()">Zerar</button>
